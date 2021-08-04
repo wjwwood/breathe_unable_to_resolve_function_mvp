@@ -1,0 +1,19 @@
+# All settings not listed here will use the Doxygen default values.
+
+PROJECT_NAME           = "breathe_unable_to_resolve_function_mvp"
+PROJECT_NUMBER         = master
+PROJECT_BRIEF          = "MVP of problem"
+
+INPUT                  = ../include
+RECURSIVE              = YES
+OUTPUT_DIRECTORY       = doc_output
+
+EXTRACT_ALL            = YES
+SORT_MEMBER_DOCS       = NO
+
+GENERATE_LATEX         = NO
+GENERATE_XML           = YES
+
+ENABLE_PREPROCESSING   = YES
+MACRO_EXPANSION        = YES
+EXPAND_ONLY_PREDEF     = YES
