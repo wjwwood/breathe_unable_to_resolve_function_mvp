@@ -1,5 +1,7 @@
 Steps to reproduce:
 
+- `python3 -m venv env && source env/bin/activate`
+- `pip3 install -r requirements_warn.txt`
 - `cd doc`
 - `doxygen ./Doxyfile`
 - `make html`
@@ -12,3 +14,5 @@ Potential matches:
 - void b(void *ptr, int (*comp)(void*, void*))
 
 ```
+
+Note that if package versions corresponding to `requirements_clean.txt` are installed (i.e. if `breathe <= 4.26.0`), then the `Unable to resolve function` warning is not produced.
